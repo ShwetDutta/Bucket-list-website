@@ -10,8 +10,7 @@ A beautifully designed, fully responsive bucket list website showcasing life goa
 - ⚡ **Lightweight & Fast** – No external libraries, pure HTML & CSS.
 
 ## 📸 Preview
-![Website Screenshot](images/preview.png)  
-*(Replace `preview.png` with an actual screenshot of your website)*
+![Website Screenshot]([images/preview.png](https://github.com/ShwetDutta/Bucket-list-website/blob/9f75fd299c6f5343735f8e811a2a5790164e0f0f/preview.png))  
 
 ## 🛠️ Technologies Used
 - **HTML5** – Structure of the website.
