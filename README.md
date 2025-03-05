@@ -20,3 +20,4 @@ A beautifully designed, fully responsive bucket list website showcasing life goa
 Follow these simple steps to run the project locally.
 
 ### **1️⃣ Clone the Repository**
+https://github.com/ShwetDutta/Bucket-list-website.git
