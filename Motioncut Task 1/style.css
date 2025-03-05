@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #000000, #FFFFFF);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: gray;   
+}
+
+h1:hover {
+    cursor: pointer;
+    color: azure;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+p:hover {
+    cursor: pointer;
+    color: azure;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.bucket-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.item h2 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.item h2:hover {
+    color: burlywood;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.item p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.item p:hover{
+    color: burlywood;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
